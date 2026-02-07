@@ -225,7 +225,8 @@ int main(){
 
         break;
         default:
-        printf("Opção Inválida!\n");
+        printf("Opção Inválida! O jogo será encerrado!\n");
+        return 0;
         break;
       }
 
@@ -245,6 +246,7 @@ int main(){
       if( opcao2 == opcao3 ){
 
         printf("Você repetiu a mesma opção! Jogo Finalizado! \n");
+        return 0;
 
       } else{
 
@@ -325,7 +327,8 @@ int main(){
 
         break;
         default:
-        printf("Opção Inválida!\n");
+        printf("Opção Inválida! O jogo será encerrado!\n");
+        return 0;
         break;
       }
 
